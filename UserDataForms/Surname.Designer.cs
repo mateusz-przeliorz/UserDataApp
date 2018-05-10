@@ -94,7 +94,7 @@
             this.Controls.Add(this.NextButton);
             this.Name = "Surname";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "UserApp";
+            this.Text = "UserDataApp";
             this.ResumeLayout(false);
             this.PerformLayout();
 

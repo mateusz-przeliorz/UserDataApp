@@ -83,8 +83,7 @@
             this.Name = "FirstName";
             this.RightToLeftLayout = true;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "UserApp";
-            this.Load += new System.EventHandler(this.FirstName_Load);
+            this.Text = "UserDataApp";
             this.ResumeLayout(false);
             this.PerformLayout();
 

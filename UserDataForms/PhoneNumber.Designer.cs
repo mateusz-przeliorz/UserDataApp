@@ -43,6 +43,7 @@
             this.BackButton.TabIndex = 14;
             this.BackButton.Text = "< Back";
             this.BackButton.UseVisualStyleBackColor = true;
+            this.BackButton.Click += new System.EventHandler(this.BackButton_Click);
             // 
             // EndButton
             // 
@@ -52,6 +53,7 @@
             this.EndButton.TabIndex = 13;
             this.EndButton.Text = "Cancel";
             this.EndButton.UseVisualStyleBackColor = true;
+            this.EndButton.Click += new System.EventHandler(this.EndButton_Click);
             // 
             // PhoneNumberLabelText
             // 
@@ -68,6 +70,7 @@
             this.PhoneNumberTextArea.Name = "PhoneNumberTextArea";
             this.PhoneNumberTextArea.Size = new System.Drawing.Size(385, 22);
             this.PhoneNumberTextArea.TabIndex = 11;
+            this.PhoneNumberTextArea.TextChanged += new System.EventHandler(this.PhoneNumberTextArea_TextChanged);
             // 
             // NextButton
             // 
@@ -77,6 +80,7 @@
             this.NextButton.TabIndex = 10;
             this.NextButton.Text = "Next >";
             this.NextButton.UseVisualStyleBackColor = true;
+            this.NextButton.Click += new System.EventHandler(this.NextButton_Click);
             // 
             // PhoneNumber
             // 
@@ -89,7 +93,8 @@
             this.Controls.Add(this.PhoneNumberTextArea);
             this.Controls.Add(this.NextButton);
             this.Name = "PhoneNumber";
-            this.Text = "UserApp";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "UserDataApp";
             this.ResumeLayout(false);
             this.PerformLayout();
 

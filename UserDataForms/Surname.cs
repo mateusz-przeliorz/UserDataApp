@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace UserDataForms
@@ -16,13 +9,17 @@ namespace UserDataForms
         {
             InitializeComponent();
             localFirstName = firstName;
+            localAddress = new Address(this);
         }
 
+        Address localAddress;
         FirstName localFirstName;
-        public string MySurname { get; set; }
+
+        public static string MySurname { get; set; }
+
         private void BackButton_Click(object sender, EventArgs e)
         {
-            this.Hide();
+            Hide();
             localFirstName.Show();
         }
 
@@ -33,12 +30,19 @@ namespace UserDataForms
 
         private void NextButton_Click(object sender, EventArgs e)
         {
-            this.Hide();           
+            if (Validation.IsFilled(MySurname))
+            {
+                Hide();
+                localAddress.Show();
+            }
+            else
+                MessageBox.Show("Please enter your surname.",
+                                "Warning!");
         }
 
         private void EndButton_Click(object sender, EventArgs e)
         {
-            this.Hide();
-        }
+            Validation.CloseConfirm();
+        }    
     }
 }

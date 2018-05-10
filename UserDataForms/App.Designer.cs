@@ -60,7 +60,7 @@
             this.Controls.Add(this.StartButton);
             this.Name = "App";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "UserApp";
+            this.Text = "UserDataApp";
             this.ResumeLayout(false);
             this.PerformLayout();
 

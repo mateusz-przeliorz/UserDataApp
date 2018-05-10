@@ -83,6 +83,7 @@
     <Compile Include="Surname.Designer.cs">
       <DependentUpon>Surname.cs</DependentUpon>
     </Compile>
+    <Compile Include="Validation.cs" />
     <EmbeddedResource Include="Address.resx">
       <DependentUpon>Address.cs</DependentUpon>
     </EmbeddedResource>

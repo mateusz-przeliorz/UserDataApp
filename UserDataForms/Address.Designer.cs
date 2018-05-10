@@ -167,7 +167,8 @@
             this.Controls.Add(this.CityTextArea);
             this.Controls.Add(this.NextButton);
             this.Name = "Address";
-            this.Text = "UserApp";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "UserDataApp";
             this.ResumeLayout(false);
             this.PerformLayout();
 
