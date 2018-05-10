@@ -1,0 +1,15 @@
+C:\Users\mateu\source\repos\UserDataForms\UserDataForms\bin\Debug\UserDataForms.exe.config
+C:\Users\mateu\source\repos\UserDataForms\UserDataForms\bin\Debug\UserDataForms.exe
+C:\Users\mateu\source\repos\UserDataForms\UserDataForms\bin\Debug\UserDataForms.pdb
+C:\Users\mateu\source\repos\UserDataForms\UserDataForms\obj\Debug\UserDataForms.csprojResolveAssemblyReference.cache
+C:\Users\mateu\source\repos\UserDataForms\UserDataForms\obj\Debug\UserDataForms.Address.resources
+C:\Users\mateu\source\repos\UserDataForms\UserDataForms\obj\Debug\UserDataForms.Completion.resources
+C:\Users\mateu\source\repos\UserDataForms\UserDataForms\obj\Debug\UserDataForms.FirstName.resources
+C:\Users\mateu\source\repos\UserDataForms\UserDataForms\obj\Debug\UserDataForms.PhoneNumber.resources
+C:\Users\mateu\source\repos\UserDataForms\UserDataForms\obj\Debug\UserDataForms.Properties.Resources.resources
+C:\Users\mateu\source\repos\UserDataForms\UserDataForms\obj\Debug\UserDataForms.Surname.resources
+C:\Users\mateu\source\repos\UserDataForms\UserDataForms\obj\Debug\UserDataForms.csproj.GenerateResource.cache
+C:\Users\mateu\source\repos\UserDataForms\UserDataForms\obj\Debug\UserDataForms.csproj.CoreCompileInputs.cache
+C:\Users\mateu\source\repos\UserDataForms\UserDataForms\obj\Debug\UserDataForms.exe
+C:\Users\mateu\source\repos\UserDataForms\UserDataForms\obj\Debug\UserDataForms.pdb
+C:\Users\mateu\source\repos\UserDataForms\UserDataForms\obj\Debug\UserDataForms.App.resources
