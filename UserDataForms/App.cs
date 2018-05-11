@@ -15,7 +15,7 @@ namespace UserDataForms
 
         private void StartButton_Click(object sender, EventArgs e)
         {
-            this.Hide();
+            Hide();
             localFirstName.Show();
         }
     }

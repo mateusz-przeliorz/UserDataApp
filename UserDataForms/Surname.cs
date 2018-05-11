@@ -14,7 +14,6 @@ namespace UserDataForms
 
         Address localAddress;
         FirstName localFirstName;
-
         public static string MySurname { get; set; }
 
         private void BackButton_Click(object sender, EventArgs e)

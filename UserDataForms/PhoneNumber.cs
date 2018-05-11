@@ -13,7 +13,6 @@ namespace UserDataForms
 
         Address localAddress;
         Completion localCompletion;
-
         public static string MyPhoneNumber { get; set; }    
 
         private void BackButton_Click(object sender, EventArgs e)

@@ -14,7 +14,6 @@ namespace UserDataForms
 
         Surname localSurname;
         PhoneNumber localPhoneNumber;
-
         public static string MyCity { get; set; }
         public static string MyStreet { get; set; }
         public static string MyStreetNumber { get; set; }
